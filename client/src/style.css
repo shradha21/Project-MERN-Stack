@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+/*---SignUp Page-----*/
+
+.full-fluid {
+    width: 100%;
+    height: 800px;
+    background-color: #f0f5f5
+}
+
+.insta-pic {
+    margin-left: 450px;
+    margin-top: 30px;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 2;
+}
+
+.insta-another-pic {
+    margin-left: 310px;
+    margin-top: 30px;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 1;
+}
+
+.footer {
+    margin-top: 700px;
+    margin-left: 30px
+}
+
+.signup-fields-error{
+    color: #ff8080;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+
+/* right side form page  */
+
+.right-side {
+    margin-top: 15px
+}
+
+.signup-box {
+    box-sizing: border-box;
+    border: 2px solid #e0ebeb;
+    height: 600px;
+    width: 300px;
+    margin-left: 210px;
+    margin-top: 15px;
+    box-shadow: 2px solid #e0ebeb;
+}
+
+.insta-name {
+    font-family: 'Grand Hotel', cursive;    
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder
+}
+
+p {
+    margin: 15px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 13px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.facebook {
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    margin-left: 9px;
+    color: black
+}
+
+.content {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.login-account {
+    box-sizing: border-box;
+    border: 2px solid #e0ebeb;
+    width: 300px;
+    height: 50px;
+    margin-left: 210px;
+    margin-top: 10px
+}
+
+.signup-button {
+    margin-left: 50px;
+    color: black
+}
+
+.copy-right {
+    font-family: 'Lobster', cursive;
+    margin-left: 260px;
+   font-size: 12px
+}
+
+/*------Signup page--------------*/
+
+/*-----Login Page---------------*/
+
+.full-container {
+    /* background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
+    background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D2D);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    width: 100%;
+    height: 800px;
+    position: relative;
+    position: fixed;
+}
+
+.text-center {
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    color: white;
+    font-weight: bold;
+    padding-top: 100px;
+    font-size: 60px
+}
+
+.form-page {
+    margin-top: 20px
+}
+
+.form-control {
+    background: transparent;
+    opacity: 0.3;
+    border-radius: 0px;
+    border: 0px;
+    padding: 30px;
+    font-size: 24px;
+    margin-top: 10px
+}
+
+.login-button {
+    background: transparent;
+    /* opacity: 1.0; */
+    border: 1px solid #c966aa;
+    color: #bc1888
+}
+
+.paragraph-text {
+    color: white;
+    padding-top: 20px;
+    font-size: 18px
+}
+
+span {
+    color: white;
+    margin-left: 200px;
+}
+
+.login-with-facebook {
+    color: white;
+    margin-left: 140px;   
+}
+
+.signup {
+    margin-top: 100px;
+    text-align: center
+}
+
+.login-fields-error {
+    color: whitesmoke;
+    margin-left: 75px
+}
+
+/*--------login page--------------*/
+
+/*-------account page-------------*/
+.Home-account-right-side {
+    text-align: center;
+    
+}
+
+.search-box {
+    width: 170px;
+    height: 25px;
+    margin-left: 45px;
+    padding-left: 70px;
+}
+
+.instagram-name {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 35px;
+    font-weight: bold
+}
+
+.profile-pic {
+    margin-top: 25px
+}
+
+.text {
+    margin-top: 40px;
+    margin-left: 15px
+}
+
+.followers {
+    display: inline;
+    padding: 20px;
+}
+
+.gallery {
+    /* border: 1px solid black; */
+    height: 450px;
+}
+
+.myposts {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}
+
+.posts {
+    border: 1px solid #f0f5f5;
+    width: 600px;
+    height: 600px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    padding: 3px;
+    box-shadow: 5px solid #f0f5f5;
+    border: 1px solid black
+}
+
+.post-comment {
+    border: none;
+    border-bottom: 1px solid rgb(8,93,252);
+    box-shadow: 0 1px 0 0 rgb(8,93,252);
+}
+
+
+.post-text {
+    /* text-align: center; */
+    margin-left: 40px;
+}
+
+.post-icon {
+    margin-left: 560px;
+    border: none;
+    margin-top: 2px;
+    background-color: white
+}
+
+.body-text {
+    margin-left: 0px;
+    text-align: left;
+    font-weight: lighter
+}
+
+.photo-file {
+    margin-top: 50px
+}
+
+.post-header {
+    /* background-color: yellow; */
+    margin-bottom: 5px;
+    height: 45px
+    /* border: 1px solid black */
+}
+
+.post-image {
+    /* background-color: orange; */
+    width: 590px;
+    height: 300px;
+    /* border: 1px solid black */
+}
+
+.post-thumb {
+    /* background-color: whitesmoke; */
+    height: 40px;
+    margin: 10px;
+    /* border: 1px solid black */
+}
+
+
+.like-button {
+    border: none;
+    background-color: white;
+    margin: 5px
+}
+
+.unlike-button {
+    border: none;
+    background-color: white;
+    margin-left: 15px
+}
+
+
+.post-content {
+    background-color: whitesmoke;
+    height: 180px;
+    /* border: 1px solid black */
+
+}
+
+.post-comment {
+    /* background-color: wheat; */
+    width: 590px;
+    margin-top: 30px;
+    height: 35px
+    /* margin-bottom: 5px; */
+    /* height: 15px */
+}
+
+
+/*------account page-------------*/
