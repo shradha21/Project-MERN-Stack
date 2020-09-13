@@ -1,7 +1,7 @@
 ## Overview
 This app is quite similar to an Instagram, where the user can post an images with some captions,user can likes and comments and also view their profile.
 
-##Dependencies and Installations:
+## Dependencies and Installations:
 1. react npm install react
 2. react-redux npm install react-redux
 3. redux-thunk npm install redux-thunk
